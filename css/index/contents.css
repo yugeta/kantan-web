@@ -1,0 +1,30 @@
+main .contents{
+  padding:20px;
+}
+
+main .contents img{
+  max-width:100%;
+  height:200px;
+  display:block;
+  margin-bottom:20px;
+}
+
+main .contents h2{
+  font-size:3rem;
+  margin-top:50px;
+  border-bottom:1px solid black;
+  padding-bottom:10px;
+}
+
+main .contents img.image-1{
+  margin:0 auto;
+}
+main .contents img.image-2{
+  margin-left:auto;
+}
+
+
+main .contents .sentense{
+  white-space:pre-wrap;
+  word-break:break-all;
+}

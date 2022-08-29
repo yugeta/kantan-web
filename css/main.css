@@ -1,0 +1,33 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'common.css';
+
+:root{
+  --size-header-height : 80px;
+  --size-footer-height : 80px;
+  --size-font : 14px;
+  --color-font : #666;
+  --color-font-invert : #ddd;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing : border-box;
+     -moz-box-sizing : border-box;
+       -o-box-sizing : border-box;
+      -ms-box-sizing : border-box;
+          box-sizing : border-box;
+}
+*{
+  -webkit-font-smoothing : auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size : var(--size-font);
+}
+
+main{
+  min-height : calc(100% - var(--size-header-height) - var(--size-footer-height));
+  padding:20px;
+}
+
+
+
