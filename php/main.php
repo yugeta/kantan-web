@@ -30,30 +30,19 @@ class Main{
   }
 
   public static function get_title(){
-    return 'sample';
-    // $add = '';
-    // switch(@$_GET['p']){
-    //   case 'about':
-    //     $add = ' : センターについて';
-    //     break;
-    //   case 'contact':
-    //     $add = ' : お問合せ';
-    //     break;
-    //   case 'guide':
-    //     $add = ' : 共用装置のご案内';
-    //     break;
-    //   case 'research':
-    //   case 'resrarch_list':
-    //     $add = ' : 研究活動';
-    //     break;
-    //   case 'qa':
-    //     $add = ' : よくある質問';
-    //     break;
-    //   case 'news':
-    //     $add = ' : ニュース';
-    //     break;
-    // }
-    // return 'ナノシステム集積センター' . $add;
+    $add = '';
+    switch(@$_GET['p']){
+      case 'about':
+        $add = ' : このサイトについて';
+        break;
+      case 'contact':
+        $add = ' : お問合せ';
+        break;
+      case 'work':
+        $add = ' : お仕事内容';
+        break;
+    }
+    return 'カンタンWEB' . $add;
   }
 
   // partsファイルの読み込み
