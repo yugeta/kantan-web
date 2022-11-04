@@ -1,0 +1,19 @@
+header .logo{
+  padding:10px;
+  display:flex;
+  align-items:center;
+}
+
+header .logo .title{
+  margin-left:10px;
+  font-size:2rem;
+  font-weight:bold;
+  /* letter-spacing:-0.3rem; */
+  white-space:nowrap;
+  color:pink;
+}
+@media (max-width:500px){
+  header .logo .title{
+    font-size:1.6rem;
+  }
+}
